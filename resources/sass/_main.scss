@@ -1,0 +1,32 @@
+.comic-wrapper, .comic-wrapper {
+    background-color: #ebebeb;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    span{
+        color: rgb(121, 0, 121);
+    }
+}
+
+.table-wrapper {
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #ebebeb;
+
+    h1 {
+        color: crimson;
+    }
+}
+
+td a {
+    color: #212529;
+
+    &:hover{
+        color: crimson;
+    }
+}
+
+.card-title h1 {
+    color: crimson;
+}
