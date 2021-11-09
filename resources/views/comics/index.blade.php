@@ -12,12 +12,15 @@
 <div class="table-wrapper p-5">
 
         @if (session('delete'))
+
             <div class="alert alert-success" role="alert">
                 {{ session('delete') }} has been removed succesfully!
             </div>
+            
         @endif
 
         <div class="table-header d-flex align-items-center justify-content-between mb-4">
+            
             <h1 class="card-title mb-3">Available Now!</h1>
             <div class="d-flex">
                 <form method="GET">
@@ -76,10 +79,11 @@
                 @endforelse
                 
             </tbody>
-
         </table>
+
     </div>
 @endsection
+
 @section('script-section')
     <script>
 

@@ -15,37 +15,37 @@
             <div class="col-4 mb-4">
                 <label for="title" class="form-label">Title</label>
                 <input class="form-control" type="text" id="title" name="title" placeholder="Title" value="{{ $comic->title }}" required>
-                <div class="form-text">New comic title</div>
+                <div class="form-text">Comic title</div>
             </div>
 
             <div class="col-4 mb-4">
                 <label for="thumb" class="form-label">Cover</label>
                 <input class="form-control" type="text" id="thumb" name="thumb" placeholder="Cover" value="{{ $comic->thumb }}">
-                <div class="form-text">New comic url cover</div>
+                <div class="form-text">Comic url cover</div>
             </div>
 
             <div class="col-4 mb-4">
                 <label for="series" class="form-label">Series</label>
                 <input class="form-control" type="text" id="series" name="series" placeholder="Series" required value="{{ $comic->series }}">
-                <div class="form-text">New comic series</div>
+                <div class="form-text">Comic series</div>
             </div>
 
             <div class="col-4 mb-4">
                 <label for="price" class="form-label">Price</label>
                 <input class="form-control" type="text" id="price" name="price" placeholder="Price" required value="{{ $comic->price }}">
-                <div class="form-text">New comic price</div>
+                <div class="form-text">Comic price</div>
             </div>
 
             <div class="col-4 mb-4">
                 <label for="sale_date" class="form-label">Sale Date</label>
                 <input class="form-control" type="text" id="sale_date" name="sale_date" placeholder="Sale Date" value="{{ $comic->sale_date }}" required>
-                <div class="form-text">New comic sale date</div>
+                <div class="form-text">Comic sale date</div>
             </div>
 
             <div class="col-4 mb-4">
                 <label for="description" class="form-label">Description</label>
                 <input class="form-control" type="text" id="description" name="description" placeholder="Synopsis" value="{{ $comic->description }}" required>
-                <div class="form-text">New comic synopsis</div>
+                <div class="form-text">Comic synopsis</div>
             </div>
         </div>
 

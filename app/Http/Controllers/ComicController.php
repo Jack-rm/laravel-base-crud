@@ -53,11 +53,11 @@ class ComicController extends Controller
     public function store(Request $request)
     {
         $data = $request->all();
-        $comic = new Comic();
+        // $comic = new Comic(); anche questo non necessario poichè incluso all'interno di Comic::create) er l'utilizzo di create
 
         $comic = Comic::create($data);  // Fillables necessari
 
-        $comic->save();
+        // $comic->save(); incluso nel create
 
         return redirect()->route('comic.show', $comic);
     }
