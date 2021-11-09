@@ -41,6 +41,12 @@
                 <input class="form-control" type="text" id="sale_date" name="sale_date" placeholder="Sale Date" value="{{ $comic->sale_date }}" required>
                 <div class="form-text">New comic sale date</div>
             </div>
+
+            <div class="col-4 mb-4">
+                <label for="description" class="form-label">Description</label>
+                <input class="form-control" type="text" id="description" name="description" placeholder="Synopsis" value="{{ $comic->description }}" required>
+                <div class="form-text">New comic synopsis</div>
+            </div>
         </div>
 
         <div class="col-12 mb-4 text-end">

@@ -3,9 +3,10 @@
     border: 1px solid transparent;
     border-radius: 5px;
 
-    span{
-        color: rgb(121, 0, 121);
+    span, h1{
+        color: crimson;
     }
+
 }
 
 .table-wrapper {
@@ -29,4 +30,12 @@ td a {
 
 .card-title h1 {
     color: crimson;
+}
+
+.fa-trash-alt {
+    border: none;
+
+    &:hover{
+        color: crimson;
+    }
 }

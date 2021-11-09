@@ -59,7 +59,7 @@ class ComicController extends Controller
 
         $comic->save();
 
-        return redirect()->route('comics.show', $comic);
+        return redirect()->route('comic.show', $comic);
     }
 
     /**
@@ -110,6 +110,8 @@ class ComicController extends Controller
      */
     public function destroy(Comic $comic)
     {
-        //
+        $comic->delete();
+
+        return redirect()->route('comic.index')->with('delete', $comic->title);
     }
 }

@@ -11252,8 +11252,8 @@ textarea.form-control-lg {
   border: 1px solid transparent;
   border-radius: 5px;
 }
-.comic-wrapper span, .comic-wrapper span {
-  color: #790079;
+.comic-wrapper span, .comic-wrapper h1, .comic-wrapper .h1, .comic-wrapper h1 {
+  color: crimson;
 }
 
 .table-wrapper {
@@ -11273,5 +11273,12 @@ td a:hover {
 }
 
 .card-title h1, .card-title .h1 {
+  color: crimson;
+}
+
+.fa-trash-alt {
+  border: none;
+}
+.fa-trash-alt:hover {
   color: crimson;
 }

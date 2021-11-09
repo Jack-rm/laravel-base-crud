@@ -10,13 +10,13 @@
         <hr>
         <div class="card-body row">
             <div class="col-4">
-                <img class="img-fluid" src="{{$comic->thumb}}" alt="{{$comic->title}} Cover">
+                <img class="img-fluid img-thumbnail ms-5 mt-2" src="{{$comic->thumb}}" alt="{{$comic->title}} Cover">
             </div>
             <div class="col-8">
                 <h2><span>Series:</span> {{$comic->series}}</h2>
                 <h3><span>Price:</span> {{$comic->price}}$</h3>
                 <h4><span>Sale Date:</span> {{$comic->sale_date}}</h4>
-                <h5>" {{$comic->description}} "</h5>
+                <h5 class="pt-3"><i>" {{$comic->description}} "</i></h5>
             </div>
 
         </div>
